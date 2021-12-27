@@ -1,0 +1,40 @@
+.searchRes {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.searchRes_content {
+    background-color: white;
+    height:fit-content;
+    width:650px;
+    transform: scale(0.5);
+    transition: 0.5s all;
+}
+
+.searchRes.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.searchRes_content.active{
+    transform:scale(1);
+}
+
+.exit {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+

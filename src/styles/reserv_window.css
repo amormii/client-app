@@ -1,0 +1,95 @@
+.modalRes {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modalRes_content {
+    background-color: white;
+    height: fit-content;
+    width: 650px;
+    transform: scale(0.5);
+    transition: 0.5s all;
+}
+
+.modalRes.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modalRes_content.active {
+    transform: scale(1);
+}
+
+.exit {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.headerImg {
+    width: 650px;
+}
+
+.crossBtn {
+    max-height: 25px;
+    max-width: 25px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.search {
+    text-align: center;
+    background-color: #3E2620;
+    color: white;
+    padding: 8px 165px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: white;
+    color: #3E2620;
+    border: #3E2620 1px solid;
+    padding: 3px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.c_btn {
+    margin-top: 20px;
+}
+
+.cancel:hover {
+    color: white;
+    background-color: #3E2620;
+    transition: background-color 0.3s, color 0.3s;
+}

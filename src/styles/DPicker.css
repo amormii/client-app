@@ -1,0 +1,71 @@
+.datepicker-container, .select-month input, .select-wrapper input.select-dropdown {
+    text-align: center;
+    font-size: 20px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.modal {
+    width: auto !important;
+}
+
+.datepicker-date-display,
+.datepicker-table td.is-selected {
+    background-color: #3E2620 !important;
+}
+
+.datepicker-table td.is-today,
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+    color: #3E2620 !important;
+}
+
+button, optgroup, select, textarea, .select-dropdown {
+    text-align: center;
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: none !important;
+}
+
+input {
+    text-align: center;
+    font-size: 20px !important;
+    font-family: 'Oswald', sans-serif !important;
+    cursor: pointer;
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+
+.datepicker-table td.is-today:after {
+    color: white !important;
+}
+
+.datepicker-table td.is-selected {
+    color: white !important;
+}
+
+.modal-overlay {
+    height: 100% !important;
+    top: 0 !important;
+}
+
+.month-next:target {
+    background-color: #3E2620 !important;
+}
+
+.dropdown-content li>span {
+    color: #3E2620 !important;
+}
+
+.dropdown-content {
+    height: fit-content !important;
+}
+
+.datepicker {
+    border-bottom: none !important;
+    padding-top: 25px !important;
+    height: fit-content !important;
+}
+
+
+button:focus {
+    background: none !important;
+}
